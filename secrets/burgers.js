@@ -20,7 +20,7 @@ var geojsonLayer = L.geoJson.ajax("./secrets/burgers.geojson", {
       l.classList.add('burger-item');
       l.innerHTML = '<h1>' + props.name + ' @ ' + '<a href="' + props.url + '">' + props.provider + '</a>' + '</h1>';
       l.innerHTML += '<p><small>' + props.address + ', ' + props.hours + '</small></p>';
-      l.innerHTML += '<img src="' + props.image + '">';
+      l.innerHTML += '<img width="150" src="' + props.image + '">';
       l.innerHTML += '<p class="burger-desc">' + props.description + '</p>';
       s.appendChild(l);
     }
@@ -31,7 +31,7 @@ var geojsonLayer = L.geoJson.ajax("./secrets/burgers.geojson", {
     var c = document.createElement('div');
     c.classList.add('burger-popup');
     c.innerHTML = '<h1>' + props.name + ' @ ' + '<a href="' + props.url + '">' + props.provider + '</a>' + '</h1>';
-    c.innerHTML += '<img src="' + props.image + '">';
+    c.innerHTML += '<img width="150" src="' + props.image + '">';
     c.innerHTML += '<p><small>' + props.address + ', ' + props.hours + '</small></p>';
 
     var layer = L.marker(latLng, {icon: burger});

@@ -1,14 +1,14 @@
 {
-  "name": "burger-week-challenge-2014",
+  "name": "burger-week-challenge-2015",
   "version": "1.0.0",
-  "description": "BURGER WEEK CHALLENGE 2014",
+  "description": "BURGER WEEK CHALLENGE 2015",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "python -m SimpleHTTPServer"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngoldman/burger-week-challenge-2014.git"
+    "url": "https://github.com/davidcelis/burger-week-challenge-2015.git"
   },
   "keywords": [
     "burger",
@@ -19,11 +19,12 @@
   "author": "Nate Goldman <nate@ngoldman.me>",
   "contributors": [
     "Nikolas Wise <nikolaswise@gmail.com>",
-    "Mele Sax-Barnett"
+    "Mele Sax-Barnett",
+    "David Celis <me@davidcel.is>"
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ngoldman/burger-week-challenge-2014/issues"
+    "url": "https://github.com/davidcelis/burger-week-challenge-2015/issues"
   },
-  "homepage": "https://github.com/ngoldman/burger-week-challenge-2014"
+  "homepage": "https://github.com/davidcelis/burger-week-challenge-2015"
 }
